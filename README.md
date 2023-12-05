@@ -23,7 +23,6 @@ There are two components in this project: the head tracking device and the robot
 
 # Considerations 
 - Did not utilise the gyroscope within the IMU sensor as it resulted in a sudden fluctuation of pitch and yaw values due to drifting issues
-- Considered that utilising the acclerometer and magnetometer to calculate the pitch and yaw values resulted the IMU sensor to be extremely sensitive to     
-  rotational movements
+- Considered that utilising the acclerometer and magnetometer to calculate the pitch and yaw values resulted the IMU sensor to be extremely sensitive to           rotational movements
 - Future development works would be to utilise all 3 sensors (accelerometer, gyroscope and magnetometer) to create a complementary filter which may help in
   reducing sensor sensitivity for the calculation of pitch and yaw values
