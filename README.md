@@ -16,8 +16,7 @@ There are two components in this project: the head tracking device and the robot
 - The servo motors are set up in a pan-tilt mount system to mimic the head movements of the user
 
 # Vision of the Robotic Head System
-- A Intel RealSense Depth Camera (D415) provides the vision for the robotic head. A 3-D printed casing is created to attach the depth camera on the pan-tilt     
-  mount system
+- A Intel RealSense Depth Camera (D415) provides the vision for the robotic head. A 3-D printed casing is created to attach the depth camera on the pan-tilt       mount system
 - To remotely stream the depth camera footage, the camera is connected to a single board computer (Raspberry Pi 4) with the camera packages and a VNC client       installed
 - Any electronic devices (such as a smartphone) with the VNC viewer can access the depth camera footage remotely and the electronic device can be slotted inside   the headset
 
