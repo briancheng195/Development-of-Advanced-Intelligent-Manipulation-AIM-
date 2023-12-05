@@ -21,3 +21,9 @@ There are two components in this project: the head tracking device and the robot
 - To remotely stream the depth camera footage, the camera is connected to a single board computer (Raspberry Pi 4) with the camera packages and a VNC client       installed
 - Any electronic devices (such as a smartphone) with the VNC viewer can access the depth camera footage remotely and the electronic device can be slotted inside   the headset
 
+# Considerations 
+- Did not utilise the gyroscope within the IMU sensor as it resulted in a sudden fluctuation of pitch and yaw values due to drifting issues
+- Considered that utilising the acclerometer and magnetometer to calculate the pitch and yaw values resulted the IMU sensor to be extremely sensitive to    
+  rotational movements
+- Future development works would be to utilise all 3 sensors (accelerometer, gyroscope and magnetometer) to create a complementary filter which may help in
+  reducing sensor sensitivity for the calculation of pitch and yaw values
