@@ -28,8 +28,8 @@ void loop() {
     float yaw = receivedData[1];
 
    // Map pitch and yaw angles to servo positions
-    pitchServoPos = map(pitch, -90, 60, 500, 350); // Adjust min and max values as needed for your servos
-    yawServoPos = map(yaw, -90, 60, 600, 150);
+    pitchServoPos = map(pitch, -90, 90, -90, 90); // Adjust min and max values as needed for your servos
+    yawServoPos = map(yaw, -90, 90, -90, 90);
 
     // Write servo positions
     pwm.setPWM(0, 0, pitchServoPos); // Assuming servo for pitch is connected to channel 0
