@@ -46,6 +46,7 @@ There are two components in this project: the head tracking device and the robot
 
 # Video Demonstration
 HTTPS://WWW.YOUTUBE.COM/SHORTS/YSLO3FRVPRW
+
 <img width="400" alt="image" src="https://github.com/briancheng195/Development-of-Advanced-Intelligent-Manipulation-AIM-/assets/122734373/0e374af2-5742-4ff1-a699-8b1588e1552c">
 
 # Considerations 
